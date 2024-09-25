@@ -29,8 +29,8 @@ def transform_text(text):
     return " ".join(y)
 
 # Load the TF-IDF vectorizer and the trained model
-tfidf = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/vect.pkl', 'rb'))
-model = pickle.load(open('C:/Users/shahe/Desktop/ML DEPLOYMENT/model.pkl', 'rb'))
+tfidf = pickle.load(open('vect.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 # Set the title of the Streamlit app
 st.title('Email Spam Classifier')
