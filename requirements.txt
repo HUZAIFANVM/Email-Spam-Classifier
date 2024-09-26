@@ -5,3 +5,5 @@ seaborn
 matplotlib
 nltk
 streamlit
+pickle
+string
