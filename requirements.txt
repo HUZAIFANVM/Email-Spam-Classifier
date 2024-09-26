@@ -1,4 +1,4 @@
-python-3.9
+
 numpy
 pandas
 scikit-learn
@@ -6,4 +6,4 @@ seaborn
 matplotlib
 nltk
 streamlit
-string
+
